@@ -32,22 +32,18 @@
     };
   </script>
 </head>
-<div>
-  <div id="coords" style="z-index:999;"></div>
-<div style="z-index:9; height: 70%;">
 <a-scene vr-mode-ui="enabled: false">
   <a-entity id="wrapper" position="0 -8 0">
-
-
     <a-box gps-projected-entity-place='latitude: 47.687670600000004; longitude: 19.7833222' material='color: red' scale='10 10 10'></a-box>
-    <a-text id="welcome"  scale="100 100 100" color="#000000" position="0 0 -300"></a-text>
-    <!-- look-at="[gps-camera]" -->
+
+    <a-entity camera look-controls>
+    <a-text id="welcome"  scale="100 100 100" color="#000000" position="0 0 -1"></a-text>
+    </a-entity>
+      <!-- look-at="[gps-camera]" -->
 
   </a-entity><!-- /wrapper -->
 
    <a-camera camera="fov: 10;" gps-camera rotation-reader></a-camera>
 </a-scene>
-</div>
-</div>
 </body>
 </html>
