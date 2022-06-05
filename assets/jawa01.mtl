@@ -1,0 +1,134 @@
+# Blender MTL File: 'jawas-from-tatooine-static-poses-no-rig.blend'
+# Material Count: 10
+
+newmtl 000-0-0
+Ns 106.753826
+Ka 1.000000 1.000000 1.000000
+Kd 0.147451 0.188235 0.765490
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Bump C:\\Users\\iagom\\Desktop\\CA-87 (Jawa Blaster)\\texture\\T_JawaBlaster_normal.jpg
+map_Ns C:\\Users\\iagom\\Desktop\\CA-87 (Jawa Blaster)\\texture\\T_JawaBlaster_roughness.jpg
+refl C:\\Users\\iagom\\Desktop\\CA-87 (Jawa Blaster)\\texture\\T_JawaBlaster_metallic.jpg
+
+newmtl Ion_pistol
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump C:\\Users\\iagom\\Desktop\\ion pistol_Ion_pistol_Normal.jpg
+map_Kd C:\\Users\\iagom\\Desktop\\ion pistol_Ion_pistol_BaseColor.jpg
+map_Ns C:\\Users\\iagom\\Desktop\\ion pistol_Ion_pistol_Roughness.jpg
+refl C:\\Users\\iagom\\Desktop\\ion pistol_Ion_pistol_Metallic.jpg
+
+newmtl Material
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump C:\\Users\\iagom\\Desktop\\caja Jawa_Material_Normal.jpg
+map_Kd C:\\Users\\iagom\\Desktop\\caja Jawa_Material_BaseColor.jpg
+map_Ns C:\\Users\\iagom\\Desktop\\caja Jawa_Material_Roughness.jpg
+refl C:\\Users\\iagom\\Desktop\\caja Jawa_Material_Metallic.jpg
+
+newmtl Material.001
+Ns 349.619490
+Ka 1.000000 1.000000 1.000000
+Kd 0.012419 0.012419 0.012419
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl Material.002
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump C:\\Users\\iagom\\Desktop\\pistola_pistol_Normal.jpg
+map_Kd C:\\Users\\iagom\\Desktop\\pistola_pistol_BaseColor.jpg
+map_Ns C:\\Users\\iagom\\Desktop\\pistola_pistol_Roughness.jpg
+refl C:\\Users\\iagom\\Desktop\\pistola_pistol_Metallic.jpg
+
+newmtl Ropa_jawa.003
+Ns 9.508266
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.358921 0.358921 0.358921
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump C:\\Users\\iagom\\Desktop\\Ropa_jawa_Normal.jpg
+map_Kd C:\\Users\\iagom\\Desktop\\005.jpg
+
+newmtl bolsillos
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump C:\\Users\\varga\\Downloads\\tex\\Jawapartes_bolsillos_Normal.jpg
+map_Kd C:\\Users\\varga\\Downloads\\tex\\Jawapartes_bolsillos_BaseColor.jpg
+map_Ns C:\\Users\\varga\\Downloads\\tex\\Jawapartes_bolsillos_Roughness.jpg
+refl C:\\Users\\varga\\Downloads\\tex\\Jawapartes_bolsillos_Metallic.jpg
+
+newmtl cintos
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump C:\\Users\\varga\\Downloads\\tex\\Jawapartes_cintos_Normal.jpg
+map_Kd C:\\Users\\varga\\Downloads\\tex\\Jawapartes_cintos_BaseColor.jpg
+map_Ns C:\\Users\\varga\\Downloads\\tex\\Jawapartes_cintos_Roughness.jpg
+refl C:\\Users\\varga\\Downloads\\tex\\Jawapartes_cintos_Metallic.jpg
+
+newmtl detonador
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump C:\\Users\\varga\\Downloads\\tex\\Jawapartes_detonador_Normal.jpg
+map_Kd C:\\Users\\varga\\Downloads\\tex\\Jawapartes_detonador_BaseColor.jpg
+map_Ns C:\\Users\\varga\\Downloads\\tex\\Jawapartes_detonador_Roughness.jpg
+refl C:\\Users\\varga\\Downloads\\tex\\Jawapartes_detonador_Metallic.jpg
+
+newmtl jawa
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\varga\\Downloads\\tex\\Jawapartes_jawa_BaseColor.jpg
+map_Ke C:\\Users\\iagom\\Desktop\\Jawapartes_jawa_BaseColor.jpg
+map_Ns C:\\Users\\varga\\Downloads\\tex\\Jawapartes_jawa_Roughness.jpg
