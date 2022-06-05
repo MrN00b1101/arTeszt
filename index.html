@@ -20,8 +20,8 @@
           arjs.value = 'sourceType: webcam; sourceWidth: 1280; sourceHeight: 960; trackingMethod: best; debugUIEnabled: false;';
           gps.value = `latitude: ${position.coords.latitude - 0.001}; longitude: ${position.coords.longitude + 0.001}`;
           log(gps.value);
-          lat.setAttribute("value", 'latitude: ');
-          lon.setAttribute("value", 'longitude: ');
+          lat.setAttribute("value", 'latitude: '+position.coords.latitude);
+          lon.setAttribute("value", 'longitude: '+position.coords.longitude);
           latFix.setAttribute("value", 'latitude: 47.68852960001');
           lonFix.setAttribute("value", 'longitude: 19.7825160002');
           scene.setAttributeNode(gps); /* Apply to whole scene */
@@ -45,7 +45,7 @@
     <a-text id="lat"  scale="2 1 1" color="#fff" position="-5.3 3.8 -10"></a-text>
     <a-text id="lon"  scale="2 1 1" color="#fff" position="-5.3 3.5 -10"></a-text>
     <a-text id="latFix"  scale="2 1 1" color="#fff" position="-5.3 3.2 -10"></a-text>
-    <a-text id="lonFix"  scale="2 1 1" color="#fff" position="-5.3 4.9 -10"></a-text>
+    <a-text id="lonFix"  scale="2 1 1" color="#fff" position="-5.3 2.9 -10"></a-text>
   </a-camera>
    
 </a-scene>
