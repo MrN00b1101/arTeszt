@@ -17,7 +17,7 @@
           let gps = document.createAttribute('gps-entity-place'),
             arjs = document.createAttribute('arjs'),
             welcome = document.getElementById('welcome');
-          arjs.value = 'sourceType: webcam; sourceWidth: 1280; sourceHeight: 960; trackingMethod: best; debugUIEnabled: false;';
+          arjs.value = 'sourceType: webcam; sourceWidth: 1280; sourceHeight: 960; trackingMethod: best; debugUIEnabled: true;';
           gps.value = `latitude: ${position.coords.latitude - 0.001}; longitude: ${position.coords.longitude + 0.001}`;
           log(gps.value);
           lat.setAttribute("value", 'latitude: '+position.coords.latitude);
