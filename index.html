@@ -10,8 +10,7 @@
     const log = console.log;
     window.onload = () => {
       let scene = document.querySelector('a-scene'); /* Apply to whole scene */
-      let places = staticLoadPlaces();
-     renderPlaces(places);
+      
 
       if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(function (position) {
