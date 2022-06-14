@@ -15,25 +15,20 @@
 		const loader = new THREE.OBJLoader();
 
 		// load a resource
-		loader.load(
-		// resource URL
-		'DG240.obj',
-		// called when resource is loaded
+		loader.load('DG240.obj',
 		function ( object ) {
 
 			scene.add( object );
 
 		},
-		// called when loading is in progresses
 		function ( xhr ) {
 
 			console.log( ( xhr.loaded / xhr.total * 100 ) + '% loaded' );
 
 		},
-		// called when loading has errors
 		function ( error ) {
 
-			console.log( 'An error happened' );
+			console.log( 'An error happened'+error );
 
 		}
 	);
