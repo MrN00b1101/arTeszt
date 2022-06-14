@@ -32,7 +32,7 @@
 			console.log( 'An error happened'+error );
 
 		}
-			    function init()
+function init()
     {
     
       scene = new THREE.Scene();
@@ -66,17 +66,13 @@
     function render()
     {
       
-      // rotating the cube each render tick
-       cube.rotation.x += 0.005;
-       cube.rotation.y += 0.01;
-
       renderer.render( scene, camera );   // We are rendering the 3D world
       requestAnimationFrame( render );  // we are calling render() again,  to loop
     }
     
     init();
 			    
-	);
+);
 </script>
 	</body>
 </html>
